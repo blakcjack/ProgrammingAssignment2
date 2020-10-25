@@ -5,7 +5,7 @@
 ## calculate the inverse, we can use previous result. Since they
 ## will be exactly same.
 
-## Write a short comment describing this function
+## makeCacheMatrix function will create special matrix object
 
 makeCacheMatrix <- function(x = matrix()) {
 
