@@ -1,5 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions are used to create a special matrix object and
+## then cache it. We need the function like this, because sometimes
+## make computation such matrix inversion is aboslutely expensive.
+## So, if the value of the matrix does not change and we want to
+## calculate the inverse, we can use previous result. Since they
+## will be exactly same.
 
 ## Write a short comment describing this function
 
