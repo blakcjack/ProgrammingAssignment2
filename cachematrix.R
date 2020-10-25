@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
         getsolve <- function() m
         list(set = set,
              get = get,
-             setmean = setmean,
-             getmean = getmean)
+             setsolve = setsolve,
+             getsolve = getsolve)
 }
 
 
